@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+</head>
+<body>
+<div style="width: 500px;min-height: 150px">
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#FBA" data-toggle="tab"><strong>amazon FBA订单</strong></a></li>
+        <li role="presentation"><a href="#product" data-toggle="tab"><strong>在线抓产品</strong></a></li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="FBA">
+            <div style="margin-top: 40px" class="alert alert-info">本操作将完成FBA订单报告从Amazon系统到BOSS系统之间的传递</div>
+           <div style="margin-bottom: 0px;text-align: right">
+               <button id="FBA_btn" type="button" class="btn btn-primary">立即同步FBA订单报告</button>
+           </div>
+        </div>
+        <div class="tab-pane fade" id="product">
+            <div style="margin-bottom: 0px;text-align: right;height: 400px">
+                <button style="margin-top: 400px" type="button" class="btn btn-primary">开始抓取产品</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="popup.js"></script>
+
+</html>
